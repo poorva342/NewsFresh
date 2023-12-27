@@ -1,0 +1,103 @@
+/* Search container */
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Search input and button */
+  .searchbar-container {
+    display: flex;
+    align-items: center;
+    width: 120%;
+    max-width: 400px; /* Adjust max-width as needed */
+  }
+  
+  .searchbar-container input[type="search"] {
+    width: 100%; /* Adjust the width percentage as needed */
+  }
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-right: 5px; /* Adjust margin as needed */
+    border: 1px solid #ccc; /* Change border color as needed */
+    border-radius: 5px;
+  }
+  
+  .btn-outline-success {
+    padding: 8px 15px;
+    border: 1px solid #2a28a7; 
+    border-radius: 5px;
+    background-color: #04347c;; 
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #161f4b; 
+  }
+
+.dataResult {
+    margin-top: 5px;
+    width: 400px;
+    max-height: 200px; 
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: auto; 
+    border-radius: 5px;
+  }
+  
+  
+  .dataResult::-webkit-scrollbar {
+    width: 1px; 
+  }
+  
+ 
+  .dataResult::-webkit-scrollbar-track {
+    background: transparent; 
+    
+  }
+  
+  
+  .dataResult::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 4px; 
+  }
+  
+
+.dataItem {
+    width: 100%;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 10px; 
+  }
+  
+  .dataItem:last-child {
+    margin-bottom: 0; 
+  }
+  .dataItem:hover {
+    background-color: #f0f0f0; 
+   
+  }
+  
+  .dataItem a {
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit color */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dataItem a:hover {
+    text-decoration: none; /* Underline text on hover */
+  }
+  
