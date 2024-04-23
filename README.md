@@ -1,7 +1,3 @@
-Certainly! Below is a template for a README page for the NewsFresh project:
-
----
-
 # NewsFresh
 
 NewsFresh is a dynamic news website developed to deliver daily news updates to users. It provides a user-friendly interface with a search bar for customized news access, ensuring a diverse and up-to-date user experience.
